@@ -29,4 +29,5 @@ steps:
     azureSubscription: 'azurebasic (96154f51-7c0d-4cb7-b3ef-7c4b39757946)'
     appType: 'webAppLinux'
     WebAppName: 'python1995'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)'
+    
